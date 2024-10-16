@@ -1,0 +1,9 @@
+Pasos para visualizar el sistema de recibos
+1. Tener un software para visualzar código (visual studio, atom, sublime text).
+2. Tener un gestor de base de datos (mysql)
+3. Instalar XAMPP para correr código php
+4. Crear la base de datos y las 2 tablas (solo corre los querys que dicen query.txt)
+5. Configurar las rutas del código para que funcione, las cuales son:
+ ° uploadArchivos.php --> en $rutaCompleta cambiar a una ruta de XAMPP que te creara carpetas donde se subirán archivos
+ ° conectar.php --> cambiar los datos de la conexión a tu base de datos 
+ ° login.js --> En window.location (31)(76) cambiar la ruta en la que tu estas de forma local (solo modificar r3cibos o eliminar ya que asi se llama mi carpeta del servidor)

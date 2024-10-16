@@ -1,0 +1,50 @@
+/* Ajustar el banner en pc y teslefono */
+@media screen and (min-width: 1250px){
+    header img{
+       background-size: cover;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+
+    .division{
+        width: 100%;
+    }
+    .alta {
+        padding: 25px 10px;
+    }
+    /* Consulta de num empleado, nombre y rfc responsivos (consulta) */
+    .consulta{
+        flex-direction: column;
+        margin: 35px 0 10px 0;
+    }
+    .consulta input{
+        margin: 10px 5px;
+    }
+    .boton_reinicio{
+        margin: 5px;
+    }
+    /* Alinear botones principales responsive */
+    .botones{
+        justify-content: center;
+    }
+    .botones button{
+        margin: 5px 10px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 980px) {
+    .alta {
+        padding: 25px 10px;
+    }
+    /* Ajustar campos de texto e input en alta */
+    .consulta{
+        flex-wrap: wrap;
+    }
+    /* Ajustar espacio de texto e input en alta */
+    .consulta p, input{
+        margin: 15px 5px;
+    }
+}
+
