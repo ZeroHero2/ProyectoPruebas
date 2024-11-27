@@ -7,3 +7,5 @@ Pasos para visualizar el sistema de recibos
  ° uploadArchivos.php --> en $rutaCompleta cambiar a una ruta de XAMPP que te creara carpetas donde se subirán archivos
  ° conectar.php --> cambiar los datos de la conexión a tu base de datos 
  ° login.js --> En window.location (46,50)(113,117) cambiar la ruta en la que tu estas de forma local (solo modificar r3cibos o eliminar ya que asi se llama mi carpeta del servidor)
+° Listado archivos: Linea 7 cambiar ruta en donde se guardan tus archivos
+° Descargar archivos: Linea 4 cambiar ruta donde se guardan los archivos
