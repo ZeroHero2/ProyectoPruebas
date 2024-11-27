@@ -47,6 +47,17 @@ form button{
 form button:hover{
     background-color: #664C48;
 }
+.boton_buscar{
+    width: 180px;
+    height: 47;
+    color: white;
+    background-color: #775D56;
+    padding: 8px 0;
+    border-radius: 10px;
+}
+boton_buscar:hover{
+    background-color: #664C48;
+}
 /* Ajusar el icono que esta al lado del texto */
 .extra{
     width: 32px;
@@ -140,13 +151,14 @@ form button:hover{
     height: auto;
     margin: 0 5px;
 }
-/* Centrar inputs de fechas */
+/* Centrar inputs de botones para filtrar carga de archivos */
 .fecha{
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 20px 0;
     width: 100%;
+    flex-wrap: wrap;
 }
 .fecha label{
     margin: auto 10px;

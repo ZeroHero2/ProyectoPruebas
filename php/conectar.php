@@ -8,8 +8,8 @@ error_reporting(E_ALL);
 // Configuración de la base de datos
 $servername = 'localhost'; // Cambia esto si tu servidor no es local
 $username = 'root'; // Usuario de la base de datos
-$password =  ''; //   // Contraseña del usuario
-$database = ''; // Nombre de la base de datos
+$password =  '******';   // Contraseña del usuario
+$database = 'base_datos'; // Nombre de la base de datos
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $database);

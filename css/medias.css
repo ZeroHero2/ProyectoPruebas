@@ -1,50 +1,123 @@
-/* Ajustar el banner en pc y teslefono */
-@media screen and (min-width: 1250px){
-    header img{
-       background-size: cover;
-    }
-    
-}
-
 @media (min-width: 0px) and (max-width: 500px) {
-
-    .division{
-        width: 100%;
-    }
-    .alta {
-        padding: 25px 10px;
-    }
-    /* Consulta de num empleado, nombre y rfc responsivos (consulta) */
-    .consulta{
-        flex-direction: column;
-        margin: 35px 0 10px 0;
-    }
-    .consulta input{
-        margin: 10px 5px;
-    }
-    .boton_reinicio{
-        margin: 5px;
-    }
-    /* Alinear botones principales responsive */
-    .botones{
-        justify-content: center;
-    }
-    .botones button{
-        margin: 5px 10px;
-    }
+  .division {
+    width: 100%;
+  }
+  .alta {
+    padding: 25px 10px;
+  }
+  /* Consulta de num empleado, nombre y rfc responsivos (consulta) */
+  .consulta {
+    flex-direction: column;
+    margin: 35px 0 10px 0;
+  }
+  .consulta input {
+    margin: 10px 5px;
+  }
+  .boton_reinicio {
+    margin: 5px;
+  }
+  /* Alinear botones principales responsive */
+  .botones {
+    justify-content: center;
+  }
+  .botones button {
+    margin: 5px 10px;
+  }
 }
 
-@media (min-width: 501px) and (max-width: 980px) {
-    .alta {
-        padding: 25px 10px;
-    }
-    /* Ajustar campos de texto e input en alta */
-    .consulta{
-        flex-wrap: wrap;
-    }
-    /* Ajustar espacio de texto e input en alta */
-    .consulta p, input{
-        margin: 15px 5px;
-    }
+@media (min-width: 501px) and (max-width: 981px) {
+  .alta {
+    padding: 25px 10px;
+  }
+  /* Ajustar campos de texto e input en alta */
+  .consulta {
+    flex-wrap: wrap;
+  }
+  /* Ajustar espacio de texto e input en alta */
+  .consulta p,
+  input {
+    margin: 15px 5px;
+  }
+  header {
+    height: 170px;
+  }
 }
 
+@media (width<= 850px) {
+      /* Ajustar seccion para subir archivos en movil  */
+  #drop-area {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .upload-container {
+  flex-wrap: wrap;
+  height: 100%;
+  }
+  #preview-container {
+    width: 100%;
+  max-height: 300px;
+  overflow: scroll;
+  }
+  #uploadForm{
+    flex-wrap: wrap;
+  }
+      /* Evitar que se desborde el filtro para buscar empleado en movil  */
+  .buscar{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .buscar input{
+    margin: 10px;
+  }
+  .buscar button{
+    height: 80% !important;
+    margin: auto;
+
+  }
+}
+@media (width<= 600px) {
+ 
+  /* Ampliar form de inicio de sesion  */
+.ingresar{
+  width: 90%;
+}
+  /* Agrandar input de inicio de sesion  */
+.ingresar input {
+width: 70%;
+}
+}
+  /* ---------------- Modificar el ancho del banner  -------------- */
+  @media (width>= 1200px) {
+    /* Ajustar banner  */
+    header {
+      height: 300px;
+    }
+  }
+  @media (width<= 1199px) {
+    header {
+      height: 220px;
+    }
+  }
+  @media (width<= 999px) {
+    header {
+      height: 170px;
+    }
+  }
+  @media (width<= 850px) {
+    header {
+      height: 140px;
+    }
+  }
+  @media (width<= 600px) {
+    header {
+      height: 100px;
+    }
+  }
+  @media (width<= 400px) {
+    header {
+      height: 70px;
+    }
+  }
+ 

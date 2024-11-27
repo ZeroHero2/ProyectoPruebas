@@ -13,11 +13,10 @@ body{
     font-size: 1.6rem;
 }
 /* -------- Estilos para el banner ---------*/
-header img{
-    width: auto;
-    height: 300px;
-    background-size:contain;
+header{
+    background-image: url("../Imagenes/BannerG.png");
     width: 100%;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 /* -------- Estilos para el footer ---------*/

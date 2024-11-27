@@ -5,8 +5,9 @@ require './conectar.php';
 if (!empty($_POST)) {
     $no_empleado = $_POST['no_empleado'];
     $rfc = $_POST['rfc'];
-    $sql = "UPDATE usuarios_acceso SET contrasena = '$rfc' WHERE no_empleado = '$no_empleado'";
+    $sql = "UPDATE usuarios_acceso SET contrasena = '$rfc', estado=0 WHERE no_empleado = '$no_empleado'";
     if ($conn->query($sql) === TRUE) {
+        
         $respuesta_ajax["code"] = 1;
         $respuesta_ajax["msj"] = "contrseña modificada exitosamente";
     } else {
